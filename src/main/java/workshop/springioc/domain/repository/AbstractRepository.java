@@ -1,6 +1,6 @@
-package com.mdrozdz.workshop.springioc.domain.repository;
+package workshop.springioc.domain.repository;
 
-import com.mdrozdz.workshop.springioc.domain.CodeRepository;
+import workshop.springioc.domain.CodeRepository;
 
 import java.util.ArrayList;
 import java.util.List;

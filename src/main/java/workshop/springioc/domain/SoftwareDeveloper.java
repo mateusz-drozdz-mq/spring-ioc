@@ -1,7 +1,7 @@
-package com.mdrozdz.workshop.springioc.domain;
+package workshop.springioc.domain;
 
-import com.mdrozdz.workshop.springioc.domain.formatter.JavaFormatter;
-import com.mdrozdz.workshop.springioc.domain.repository.BackendRepository;
+import workshop.springioc.domain.formatter.JavaFormatter;
+import workshop.springioc.domain.repository.BackendRepository;
 
 import java.util.List;
 

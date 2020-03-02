@@ -1,9 +1,9 @@
-package com.mdrozdz.workshop.springioc.domain;
+package workshop.springioc.domain;
 
-import com.mdrozdz.workshop.springioc.domain.formatter.JavaFormatter;
-import com.mdrozdz.workshop.springioc.domain.formatter.JavaScriptFormatter;
-import com.mdrozdz.workshop.springioc.domain.formatter.KotlinFormatter;
-import com.mdrozdz.workshop.springioc.domain.formatter.UpperCaseFormatter;
+import workshop.springioc.domain.formatter.JavaFormatter;
+import workshop.springioc.domain.formatter.JavaScriptFormatter;
+import workshop.springioc.domain.formatter.KotlinFormatter;
+import workshop.springioc.domain.formatter.UpperCaseFormatter;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;

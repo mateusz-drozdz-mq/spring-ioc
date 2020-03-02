@@ -1,6 +1,6 @@
-package com.mdrozdz.workshop.springioc.domain.formatter;
+package workshop.springioc.domain.formatter;
 
-import com.mdrozdz.workshop.springioc.domain.CommitFormatter;
+import workshop.springioc.domain.CommitFormatter;
 
 public class EmptyFormatter implements CommitFormatter {
 

@@ -1,4 +1,4 @@
-package com.mdrozdz.workshop.springioc.domain.repository;
+package workshop.springioc.domain.repository;
 
 public class BackendRepository extends AbstractRepository {
 

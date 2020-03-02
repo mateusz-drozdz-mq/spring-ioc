@@ -1,4 +1,4 @@
-package com.mdrozdz.workshop.springioc.domain;
+package workshop.springioc.domain;
 
 import org.junit.jupiter.api.Test;
 
