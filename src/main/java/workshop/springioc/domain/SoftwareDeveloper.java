@@ -7,13 +7,8 @@ import java.util.List;
 
 public class SoftwareDeveloper {
 
-  private final BackendRepository repository;
-  private final JavaFormatter formatter;
-
-  public SoftwareDeveloper() {
-    repository = new BackendRepository();
-    formatter = new JavaFormatter();
-  }
+  private CodeRepository repository;
+  private CommitFormatter formatter;
 
   public void workOn(String task) {
     repository.commit(formatter.format(task));
@@ -23,4 +18,11 @@ public class SoftwareDeveloper {
     return List.copyOf(repository.getCommits());
   }
 
+  public void setRepository(CodeRepository repository) {
+    this.repository = repository;
+  }
+
+  public void setFormatter(CommitFormatter formatter) {
+    this.formatter = formatter;
+  }
 }
